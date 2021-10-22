@@ -1,3 +1,9 @@
+import {getCLS, getFID, getLCP} from 'web-vitals';
+
+getCLS(console.log);
+getFID(console.log);
+getLCP(console.log);
+
 import '@ionic/core';
 
 import {setupConfig} from '@ionic/core';

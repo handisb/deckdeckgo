@@ -58,7 +58,8 @@
     "jszip": "^3.7.1",
     "socket.io-client": "2.3.1",
     "uuid": "^8.3.2",
-    "web-social-share": "^7.2.0"
+    "web-social-share": "^7.2.0",
+    "web-vitals": "^2.1.2"
   },
   "devDependencies": {
     "@deckdeckgo/editor": "^1.0.0",
