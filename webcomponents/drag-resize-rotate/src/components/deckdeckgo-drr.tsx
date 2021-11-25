@@ -401,12 +401,12 @@ export class DeckdeckgoDragResizeRotate {
 
     if (top) {
       const maxTop: number = this.convertParentUnit(this.parentHeight) - this.startHeight;
-      this.top = this.startTop + deltaY > 0 ? (this.startTop + deltaY < maxTop ? this.startTop + deltaY : maxTop) : 0;
+      this.top = this.startTop + deltaY;
     }
 
     if (left) {
       const maxLeft: number = this.convertParentUnit(this.parentWidth) - this.startWidth;
-      this.left = this.startLeft + deltaX > 0 ? (this.startLeft + deltaX < maxLeft ? this.startLeft + deltaX : maxLeft) : 0;
+      this.left = this.startLeft + deltaX > 0;
     }
   }
 
